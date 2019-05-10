@@ -6,9 +6,7 @@ pipeline {
     }
   }
 
-  options {
-    timestamps()
-  }
+
 
   stages {
 //    stage('PHPUnit Test') {
