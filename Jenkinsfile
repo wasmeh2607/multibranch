@@ -48,7 +48,7 @@ pipeline {
 }
 def getTagversion (String oldtagVersion)
 {
-    //oldtagVersion = oldtagVersion.substring(1)
+    oldtagVersion = oldtagVersion.substring(1)
     println oldtagVersion
     def versionParts = oldtagVersion.tokenize('.')
     println versionParts
